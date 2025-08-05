@@ -1,0 +1,10 @@
+dic_estabelecimentos_saude.csv
+dic_medicos_tipos.csv
+dic_prof_reg_saude.csv
+dic_saude_leitos_ano_mun.csv
+dic_saude_med_enf_mun.csv
+estabelecimentos_saude.csv
+medicos_tipos.csv
+prof_reg_saude.csv
+saude_leitos_mun_ano.csv
+saude_med_enf_mun_ano.csv

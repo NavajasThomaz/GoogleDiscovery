@@ -1,0 +1,75 @@
+Variável;Tipo;Descrição;Fonte;Ano
+cod_mun;numérico;Código IBGE do Município;IBGE;2020
+tipo;numérico;Tipo de especialidade médica;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. Fundação Seade;2024
+total;numérico;Vínculos empregatícios dos médicos;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. Fundação Seade;2024
+sus;numérico;Vínculos empregatícios dos médicos no SUS;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. Fundação Seade;2024
+naosus;numérico;Vínculos empregatícios dos médicos não SUS;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. Fundação Seade;2024
+;;;;
+Categoria;;;;
+Tipo;Cod;;;
+Anestesiologista;1;;;
+Cirurgia Geral;2;;;
+Clínico;3;;;
+Generalista Alopata;4;;;
+Ginecologia Obstetra;5;;;
+Saúde da Família;6;;;
+Família e comunidade;7;;;
+Pediatria;8;;;
+Psiquiatria;9;;;
+Radiologia e diagnóstico por imagem;10;;;
+Sanitarista;11;;;
+Acupuntura;12;;;
+Alergista e imunologista;13;;;
+Anatomopatologista;14;;;
+Angiologia;15;;;
+Broncoesofalogia;16;;;
+Cardiologia Intervencionista;17;;;
+Cancerologia cirúrgica;18;;;
+Cancerologia pediátrica;19;;;
+Cardiologia;20;;;
+Cirurgia cardiovascular;21;;;
+Cirurgia da mão;22;;;
+Cirurgia de cabeça e pescoço;23;;;
+Cirurgia do aparelho digestivo;24;;;
+Cirurgia pediátrica;25;;;
+Cirurgia plástica;26;;;
+Cirurgia torácica;27;;;
+Citopatologia;28;;;
+Coloproctologia;29;;;
+Dermatologia;30;;;
+Do trabalho;31;;;
+Cirurgia vascular;32;;;
+Endoscopia;33;;;
+Medicina de tráfego;34;;;
+Medicina intensiva;35;;;
+Medicina nuclear;36;;;
+Medicina preventiva e social;37;;;
+Endocrinologia e metabologia;38;;;
+Fisiatria;39;;;
+Foniatria;40;;;
+Gastroenterologia;41;;;
+Geneticista;42;;;
+Geriatria;43;;;
+Hansenologista;44;;;
+Hematologia;45;;;
+Hiperbarista;46;;;
+Homeopatia;47;;;
+Infectologia;48;;;
+Legista;49;;;
+Mastologia;50;;;
+Nefrologia;51;;;
+Neurocirurgia;52;;;
+Neurofisiologia clínica;53;;;
+Neurologia;54;;;
+Nutrologia;55;;;
+Oftalmologia;56;;;
+Oncologia clínica;57;;;
+Ortopedia e traumatologia;58;;;
+Otorrinolaringologia;59;;;
+Patologia;60;;;
+Patologia clínica / medicina laboratorial;61;;;
+Pneumologia;62;;;
+Radioterapeuta;63;;;
+Residente;64;;;
+Reumatologia;65;;;
+Urologia;66;;;

@@ -1,0 +1,9 @@
+Variável;Tipo;Descrição;Fonte;Ano
+codregsaude;numérico;Código da Região de Saúde;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. ;2024
+enfermeiro;numérico;Número de enfermeiros;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. ;2024
+médico;numérico;Número de médicos;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. ;2024
+pop;numérico;População estimativa populacional adotada pelo TCU para determinação das cotas do Fundo de Participação dos Municípios (FPM);Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. ;2024
+enf_hab;numérico;Enfermeiros por mil habitantes;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. Fundação Seade;2024
+med_hab;numérico;Médicos por mil habitantes;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. Fundação Seade;2024
+legmapenf;texto;Legenda do mapa enfermeiros;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. Fundação Seade;2024
+legmapmed;texto;Legendo do mapa médicos;Ministério da Saúde. Cadastro Nacional de Estabelecimentos de Saúde (CNES) Dez. de 2023. Fundação Seade;2024
