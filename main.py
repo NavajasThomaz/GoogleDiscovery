@@ -4,9 +4,8 @@ import requests
 from tqdm import tqdm
 
 from langchain_community.document_loaders import CSVLoader, PyPDFLoader, TextLoader
-from langchain_ollama import OllamaEmbeddings
+from langchain_ollama import OllamaEmbeddings, OllamaLLM
 from langchain_community.vectorstores import FAISS
-from langchain_community.llms import Ollama
 
 # Argumentos
 parser = argparse.ArgumentParser()
@@ -51,7 +50,7 @@ if args.action == "process":
 elif args.action == "query":
     # Carregue o vectorstore salvo anteriormente
     embeddings = OllamaEmbeddings(model="nomic-embed-text:latest") if args.mode == "ollama" else None
-    vectorstore = FAISS.load_local("faiss_index", embeddings)
+    vectorstore = FAISS.load_local("faiss_index", embeddings, allow_dangerous_deserialization=True)
     query = input("Digite sua pergunta: ")
     if not query:
         print("Necessário fornecer uma pergunta para busca.")
@@ -60,7 +59,7 @@ elif args.action == "query":
     contexto = "\n".join([doc.page_content for doc in docs_encontrados])
     prompt = f"{contexto}\n\nPergunta: {query}\nResposta:"
     if args.mode == "ollama":
-        llm = Ollama(model="qwen3:14b")
+        llm = OllamaLLM(model="qwen3:14b")
         resposta = llm(prompt)
         print(resposta)
     else:
